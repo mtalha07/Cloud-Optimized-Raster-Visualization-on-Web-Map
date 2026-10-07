@@ -624,9 +624,7 @@ Please review and follow the applicable terms and attribution requirements for t
 
 ## License
 
-Add the license appropriate for your project.
 
-For example:
 
 ```text
 MIT License

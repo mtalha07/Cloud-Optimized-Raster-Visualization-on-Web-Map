@@ -416,11 +416,8 @@ landsat9-raster-webgis/
 └── screenshots/
     ├── rgb-viewer.png
     ├── ndvi-viewer.png
-    ├── pixel-query.png
-    └── layer-control-legend.png
 ```
 
-You can adjust the filenames to match the actual structure of the project.
 
 ---
 
@@ -454,7 +451,6 @@ var ndviLayer = L.tileLayer.wms(geoserverWMS, {
 });
 ```
 
-For a public GitHub repository, keep private infrastructure details out of the source code where possible.
 
 ---
 
@@ -508,7 +504,6 @@ Separate GeoServer Infrastructure
         +-- NDVI COG
 ```
 
-This keeps the Git repository lightweight and avoids committing extremely large binary raster files.
 
 ---
 
@@ -630,7 +625,6 @@ Please review and follow the applicable terms and attribution requirements for t
 MIT License
 ```
 
-or replace this section with your organization's/company's applicable license.
 
 ---
 

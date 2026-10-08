@@ -5,7 +5,7 @@ var basemap=L.tileLayer(
     {maxZoom:19,attribution:'Tiles &copy; Esri'}
 ).addTo(map);
 
-var geoserverWMS='http://202.166.161.115:8079/geoserver/Raster_Space/wms';
+var geoserverWMS='http://Your_Server_Url:Port/geoserver/Raster_Space/wms';
 
 var rgbLayer=L.tileLayer.wms(geoserverWMS,{
     layers:'Raster_Space:Landsat9_RGB_clean_COG',

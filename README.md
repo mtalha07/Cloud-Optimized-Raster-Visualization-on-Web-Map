@@ -208,7 +208,7 @@ COG is useful for large raster workflows because the raster is internally organi
 
 ## GeoServer
 
-The processed rasters are published through **GeoServer** as raster coverage layers.
+The processed rasters are published through **GeoServer** as raster coverage layers. Use your own machine-hosted GeoServer for this.
 
 The general structure is:
 
